@@ -1,0 +1,31 @@
+# ---- 安全红线：绝不提交真实 Token / 密钥 / 账号 ----
+.env
+*.env
+.env.local
+*.token
+*.key
+*.pem
+*.p12
+*.pfx
+
+# MCP Token 本地配置文件（只允许提交带占位符的示例）
+local-config.json
+mcp-config.local.json
+secrets/
+
+# ---- 操作系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+*.log
+
+# ---- Python / Node（若后续加入源码依赖）----
+__pycache__/
+*.py[cod]
+node_modules/
+venv/
+.venv/
+
+# ---- 执行过程产物 ----
+hosts_fix_*.ps1
+hosts备份*.txt
+hosts_fix_*.txt

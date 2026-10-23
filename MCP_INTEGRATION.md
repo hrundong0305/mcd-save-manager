@@ -1,6 +1,6 @@
 # MCP 集成说明（MCP_INTEGRATION.md）
 
-> 说明：本文件按官方要求写明实际使用的麦当劳 MCP Server / Tool、调用流程与业务价值。Tool 名称以官方 `M-China/mcd-mcp-server` 仓库工具列表为准（2026-10-23 已核对），连上 mcd-mcp 后可用 `tools/list` 做最终复核。
+> 说明：本文件按官方要求写明实际使用的麦当劳 MCP Server / Tool、调用流程与业务价值。Tool 名称已通过 mcd-mcp 真机 `tools/list` 复核（2026-10-23），下表核心 Tool 名与线上完全一致。
 
 ## 1. 使用的 MCP Server
 

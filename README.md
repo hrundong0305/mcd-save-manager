@@ -91,7 +91,6 @@ python main.py "巨无霸+中薯条+中杯可乐" --mode mock   # 零依赖，�
 | `MCP_INTEGRATION.md` | 使用的麦当劳 MCP Tool、调用流程、业务价值 |
 | `CONTEST_DECLARATION.md` | 参赛声明（官方原文，一字不可改） |
 | `src/` | Skill 源码 / 可运行入口（`main.py` → `mcd_save_manager.cli`） |
-| `workbuddy.md` | 使用 WorkBuddy 开发的对话上下文（选填，交了才有 WorkBuddy 积分） |
 
 ## 🔒 安全说明
 本项目不提交任何真实 Token / 密钥 / 账号凭证，配置文件仅使用环境变量占位符。Token 泄露会被刷，请严格保管。

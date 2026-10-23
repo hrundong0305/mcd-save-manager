@@ -1,0 +1,4 @@
+# 麦当劳省钱管家 src 依赖
+# mock 模式零依赖即可运行；real 模式需要官方 MCP SDK（见 MCP_INTEGRATION.md）
+# 安装：pip install "mcp[cli]"
+mcp>=1.0
